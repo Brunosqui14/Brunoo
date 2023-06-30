@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class ItemsComponent {
 
+  item: Item[];
+
+  constructor() {
+
+  }
+
+  ngOnInit(): void {
+
+  }
+
 }
